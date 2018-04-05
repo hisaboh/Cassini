@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		ECB6B4632076060200782605 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB6B4622076060200782605 /* AppDelegate.swift */; };
-		ECB6B4652076060200782605 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB6B4642076060200782605 /* ViewController.swift */; };
 		ECB6B4682076060200782605 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECB6B4662076060200782605 /* Main.storyboard */; };
 		ECB6B46A2076060300782605 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECB6B4692076060300782605 /* Assets.xcassets */; };
 		ECB6B46D2076060300782605 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECB6B46B2076060300782605 /* LaunchScreen.storyboard */; };
+		ECB6B476207606E000782605 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB6B475207606E000782605 /* ImageViewController.swift */; };
+		ECB6B47820760B2200782605 /* DemoURLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB6B47720760B2200782605 /* DemoURLs.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ECB6B45F2076060200782605 /* Cassini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cassini.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECB6B4622076060200782605 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ECB6B4642076060200782605 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ECB6B4672076060200782605 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ECB6B4692076060300782605 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECB6B46C2076060300782605 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ECB6B46E2076060300782605 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECB6B475207606E000782605 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		ECB6B47720760B2200782605 /* DemoURLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoURLs.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,23 @@
 		ECB6B4612076060200782605 /* Cassini */ = {
 			isa = PBXGroup;
 			children = (
-				ECB6B4622076060200782605 /* AppDelegate.swift */,
-				ECB6B4642076060200782605 /* ViewController.swift */,
+				ECB6B4742076063F00782605 /* Supporting Files */,
 				ECB6B4662076060200782605 /* Main.storyboard */,
-				ECB6B4692076060300782605 /* Assets.xcassets */,
-				ECB6B46B2076060300782605 /* LaunchScreen.storyboard */,
+				ECB6B475207606E000782605 /* ImageViewController.swift */,
 				ECB6B46E2076060300782605 /* Info.plist */,
+				ECB6B47720760B2200782605 /* DemoURLs.swift */,
 			);
 			path = Cassini;
+			sourceTree = "<group>";
+		};
+		ECB6B4742076063F00782605 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECB6B4622076060200782605 /* AppDelegate.swift */,
+				ECB6B4692076060300782605 /* Assets.xcassets */,
+				ECB6B46B2076060300782605 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +146,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECB6B4652076060200782605 /* ViewController.swift in Sources */,
+				ECB6B476207606E000782605 /* ImageViewController.swift in Sources */,
 				ECB6B4632076060200782605 /* AppDelegate.swift in Sources */,
+				ECB6B47820760B2200782605 /* DemoURLs.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
